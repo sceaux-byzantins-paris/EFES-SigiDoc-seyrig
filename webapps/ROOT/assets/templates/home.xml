@@ -16,8 +16,22 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <i18n:text i18n:key="home-title"></i18n:text>
+            <i18n:text i18n:key="home-title"/>
           </h1>
+          <h2>(Bibliothèque nationale de France)</h2>
+          <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: <a
+              href="https://www.orient-mediterranee.com/member/cheynet-jean/" target="_blank"
+              >Jean-Claude Cheynet</a>, <a
+              href="https://www.orient-mediterranee.com/member/morrisson-cecile/" target="_blank"
+              >Cécile Morrisson</a>, <a
+              href="https://www.byzneo.univie.ac.at/ueber-uns/mitarbeiterinnen/emeriti/werner-seibt/"
+              target="_blank">Werner Seibt</a></h4>
+          <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: <a
+              href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+              >Alessio Sopracasa</a>, <a
+              href="https://www.orient-mediterranee.com/member/buchs-numa/" target="_blank">Numa
+              Buchs</a>, <a href="https://www.orient-mediterranee.com/member/meziridou-sima/"
+              target="_blank">Sima Meziridou</a></h4>
         </div>
       </div>
     </kiln:block>
@@ -26,8 +40,8 @@
       <main>
         <div class="row">
           <div class="large-12 columns">
-          <img class="landing-img" src="/assets/images/seal.png"/>
-          <!-- <div class="landing-page-container">
+            <img class="landing-img" src="/assets/images/seal.png"/>
+            <!-- <div class="landing-page-container">
             <div class="landing-panel">
             <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> About </h3>
@@ -60,32 +74,218 @@
             </div>
           </div> -->
             <div class="panel radius">
-              
+
               <!-- <div class="landing-img" id="site-title"></div> -->
-              <p>Seals are the only remnants of the written documents used for daily administration
-                and private correspondence from the 4th to the 15th C. in the Byzantine Empire –
-                i.e. the Christian eastern medieval empire centred upon Constantinople – whose
-                public and private archives are nearly entirely lost. As such seals do not
-                supplement archival material but have to substitute it, which explains the unique
-                importance of sigillography for Byzantine studies.</p>
-              <p>SigiDoc provides XML-based and TEI-compliant encoding standards for the description
-                and edition of Byzantine seals: as such, it aims to establish a set of rules and
-                guidelines to publish Byzantine seals in digital form. SigiDoc is intended for both
-                the creation of digital-born editions as well as digital conversion of paper
-                publications and has been conceived to provide the users with a common basis for
-                developing their projects and to give them the freedom to customise their
-                approach.</p>
-              <p>SigiDoc is largely based on the ongoing experience of EpiDoc and aims at becoming
-                the standard tool for the spreading of digital sigillography while delivering a
-                standard for the digital encoding of Byzantine seals. </p>
+              <p>Les sceaux byzantins présentés ici constituent l'édition numérique de la
+                publication donnée en 1991 aux bulles appartenant à la collection de M. <a
+                  href="https://www.wikidata.org/wiki/Q1606021" target="_blank">Henri Seyrig</a>: <a
+                  href="https://editions.bnf.fr/les-sceaux-byzantins-de-la-collection-henri-seyrig"
+                  target="_blank">Jean-Claude Cheynet, Cécile Morrisson, Werner Seibt, <i>Les sceaux
+                    byzantins de la collection Henri Seyrig</i>, Paris 1991</a>. Les travaux se
+                déroulent dans le cadre du projet franco-allemand <a
+                  href="https://www.orient-mediterranee.com/program/reveler-le-potentiel-meconnu-des-sceaux-nouvelles-methodologies-pour-la-recherche-historique-dans-le-domaine-des-etudes-byzantines/"
+                  target="_blank">ANR-DFG <i>DigiByzSeal</i></a> et sont actuellement en cours. La
+                présente édition reprend sans modifications le texte précédemment publié, avec la
+                différence que la transcription diplomatique des légendes est donnée avec la police
+                  <a href="https://www.doaks.org/resources/athena-ruby" target="_blank">Athena
+                  Ruby</a> développée par le centre de Dumbarton Oaks.</p>
+              <h3>Une biographie d'Henri Seyrig</h3>
+              <p><a href="https://www.e-periodica.ch/digbib/view?pid=snr-003%3A1973%3A52#170"
+                  target="_blank">Georges Le Rider, <i>In memoriam Henri Seyrig (1895-1873)</i>,
+                  Revue suisse de numismatique, 52 (1973), p. 167-171</a>.</p>
+              <h3>Présentation</h3>
+              <p>Henry Seyrig fut tout au long de sa carrière en relations avec les plus grands
+                musées du monde qui bénéficièrent à la fois de sa science, de ses conseils ou des
+                informations précieuses qu'il recueillait au Proche-Orient. Ils profitèrent aussi
+                bien souvent de ses dons, ou réalisèrent grâce à lui de nombreux enrichissements de
+                leurs séries. Le Cabinet des Médailles peut s'enorgueillir d’avoir été l'une de ces
+                institutions privilégiées par le savant, voire celle qui lui tenait le plus à cœur.
+                De 1959 à 1973, Henri Seyrig eut la joie d’y avoir comme interlocuteur <a
+                  href="https://www.wikidata.org/wiki/Q593140" target="_blank">Georges Le Rider</a>
+                qui, après avoir été son élève à I’Institut d’archéologie de Beyrouth de 1955 à
+                1958, devint conservateur, puis conservateur en chef en 1961, avant d’être nommé
+                administrateur général de la Bibliothèque Nationale en 1975. Henri Seyrig y
+                rencontrait aussi son ancien collaborateur à la direction des Musées de France de
+                1960 à 1962, l'archéologue et numismate <a
+                  href="https://www.wikidata.org/wiki/Q55629183" target="_blank">Raoul Curiel</a>
+                qui, après avoir été directeur d'études à la VIe section de l’École pratique des
+                hautes études, fut de 1965 à 1978 conservateur spécialiste chargé des monnaies
+                orientales.</p>
+              <p>Mais les relations d’Henri Seyrig avec la Bibliothèque Nationale remontaient plus
+                haut puisque dès 1929, alors qu'il était encore secrétaire général de I’École
+                francaise d’archéologie d‘Athènes, il offre au Cabinet 246 monnaies grecques
+                achetées à Thasos. En 1932, alors directeur des Antiquités de Syrie et du Liban, il
+                lui présente à nouveau 371 monnaies impériales grecques. La guerre interrompit
+                naturellement ces contacts qui reprennent en 1949 avec un nouveau don de plus d’une
+                centaine de monnaies antiques frappées en Syrie-Palestine, inaugurant une série
+                d'entrées quasi ininterrompues de 1958 à sa mort. Celle-ci est précédée de peu par
+                l’achat de sa collection personnelle composée de 658 monnaies, intailles etc. dont
+                beaucoup de pièces rares et scientifiquement importantes. Dons et cessions ont ainsi
+                accru les séries du Cabinet des Médailles d’un nombre considérable de monnaies,
+                cachets et bulles, bijoux et autres objets dont la statistique impressionnante,
+                quelque six mille trois cents exemplaires, ne révèle qu'imparfaitement la valeur.
+                L’importance purement numismatique des pièces est rehaussée souvent par les
+                informations concernant les provenances, nombreux étant en outre les trésors, ou
+                parties de trésors, entrés grâce à Henri Seyrig dans les collections de la
+                Bibliothèque Nationale. Le Cabinet des Médailles a par ailleurs reçu de lui toute sa
+                documentation scientifique, albums de photographies et collection de moulages
+                compris, ce qui augmente encore l’intérêt de l'ensemble.</p>
+              <p>Au sein de ce matériel varié, reflet de la multiplicité et de l’étendue des centres
+                d’intérêt et des connaissances du savant, les sceaux de plomb byzantins ou de
+                l’Orient latin occupent une place modeste en quantité, mais d'une grande importance.
+                Henri Seyrig avait dû commencer fort tôt de constituer cette série puisque dès 1935
+                il envoie au <a href="https://www.wikidata.org/wiki/Q15709784" target="_blank">R. P.
+                  V. Laurent</a>, chargé à cette date par le Collège de France de la refonte de la
+                  <a href="https://archive.org/details/sigillographiede00schl" target="_blank"
+                    ><i>Sigillographie</i> de G. Schlumberger</a>, un inventaire manuscrit fort
+                soigneusement établi qu’il qualifie de "description complète des bulles de ma
+                collection". De cette époque date sans doute un groupe d’acquisitions effectuées sur
+                les marchés d'Istanbul ou d'Alexandrie. L’essentiel de la collecte, autant qu’on en
+                puisse juger. nous y reviendrons, semble toutefois avoir été pratiqué en Syrie ou au
+                Liban. Le savant publia lui-même, parmi les "Inscriptions grecques" qui forment
+                l'appendice II du volume III de G. Tchalenko (<i>Villages antiques de Syrie du
+                  Nord</i>, Paris 1958), p. 40-42 et p. 62, fig. 24, la "Bulle de Magnus le Syrien"
+                  (n<sup>o</sup> 136). Il signale aussi dans cet ouvrage (p. 40, n. 3) quatres
+                autres variétés de plombs (nos n<sup>os</sup> 141-143 et 149). Il communiqua à <a
+                  href="https://www.wikidata.org/wiki/Q1509099" target="_blank">G. Zacos</a> et A.
+                Veglery les inédits qu'ils publièrent dans leurs <i>Byzantine Lead Seals</i>, I sous
+                les n<sup>os</sup> 131-133 (nos n<sup>os</sup> 402, 138 et 148).</p>
+              <p>En 1968, la Bibliothèque Nationale acquit, en un seul bloc, la plus grande partie
+                de cet ensemble de plus de 400 pièces, enregistré sous le numéro d'acquisition
+                global 1968-776 (1 à 405; ces derniers numéros ne sont pas reportés sur les
+                etiquettes des pièces qui conservent les numéros correspondant à I'inventaire
+                manuscrit dressé par Henri Seyrig lui-même de sa collection). Cet achat essentiel
+                est suivi la même année de celui de huit pièces (1968-782 à 789), parmi lesquelles
+                le plomb exceptionnel des commerciaires Diomède et Diogène (n<sup>o</sup> 144) et,
+                l'année suivante, de six autres plombs byzantins ou de I’Orient Latin (1969-859 à
+                864) trouvés sur le rivage de Tyr, dont celui du comte des Largesses Sacrées,
+                Gennadios (n<sup>o</sup> 92). Cette série d'achats avait été précédée en 1953 de
+                l’entrée isolée d'un très beau sceau de Raymond III de Tripoli (R 1103 = notre
+                  n<sup>o</sup> 382) que J. Yvon publia dans la <a
+                  href="https://doi.org/10.3406/numi.1966.1110" target="_blank"><i>Revue
+                    Numismatique</i> 1966</a>. À la date de l’acquisition et dans les années
+                soixante-dix, ces plombs ne sont pas inconnus du monde savant puisqu'un certain
+                nombre de ses exemplaires les plus remarquables sont décrits, voire reproduits, dans
+                les ouvrages de référence qui voient alors le jour, les <i>Byzantine Lead Seals</i>
+                de G. Zacos et A. Veglery (1972), et surtout les tomes V et II du <i>Corpus des
+                  Sceaux de l’Empire byzantin</i>, publiés par V. Laurent ou ses continuateurs entre
+                1963 et 1981. Mais, à l'exception de ces rares spécialistes, les historiens, qui
+                prennent alors pourtant conscience de plus en plus de l’originalité du document
+                sigillographique, ignorent encore la richesse de ce fonds.</p>
+              <p>La publication complète, qui nous fut confiée par Mme <a
+                  href="https://www.wikidata.org/wiki/Q106772904" target="_blank">Hélène
+                Nicolet</a>, alors directeur du Cabinet des Médailles, se justifie par plusieurs
+                raisons: la composition générale de cette collection, où les doubles sont fort peu
+                nombreux, en fait un ensemble assez représentatif de la sigillographie byzantine, à
+                l’exception, compréhensible, des séries africaines ou des séries tardives des
+                XIIe-XIVe siècles; la belle qualité des exemplaires en permet une bonne
+                illustration; les inédits sont abondants; les personnages attestés par ces plombs
+                sont d'une grande importance historique. À titre d’exemple, relevons les noms des
+                ducs d'Antioche, Théophylacte Dalassènos, Romain Sklèros, Joseph Tarchaneiôtès, du
+                catépan d'Edesse, Léon Arbentinos... L’index fournit bien des patronymes illustres,
+                Comnène, Doukas, Kourkouas, Pakourianos... Et surtout une information relativement
+                précise sur la provenance de nombreuses pièces fait exception parmi les catalogues
+                existants. En effet Henri Seyrig nous indique l’origine ou le lieu d’acquisition de
+                plus d’une soixantaine de plombs sur quatre cents. En dehors d'une dizaine
+                d'exemplaires signalés comme acquis à Constantinople et de trois autres acquis au
+                Caire (les n<sup>os</sup> 8, 300, 313 qui sont des copies), les autres proviennent
+                tous d’achats effectués en Syrie ou au Liban: 22 de Tyr, 6 de Beyrouth, un de
+                Byblos, un de Gabala, 3 de Lattakié, 13 d’Antioche, un d’Alep et un de Damas, ou
+                encore de l’île voisine de Chypre (deux exemplaires achetés à Nicosie). Et la
+                composition non précisée du reste de la collection d'origine paraît refléter la même
+                prépondérance du domaine syro-palestinien.</p>
+              <p>Par opposition avec la collection Zacos, constantinopolitaine par essence puisque
+                formée en partie des trouvailles ramassées sur le rivage du Bosphore par les
+                "araïdjis", et provenant des archives détruites de la capitale, ainsi que d’achats
+                de toutes origines dans le Grand Bazar, la collection Seyrig présente donc l’intérêt
+                d’offrir un témoignage portant sur I’une des provinces les plus riches et les plus
+                importantes de l’empire byzantin dont les trouvailles sigillographiques sont
+                quasiment non publiées par ailleurs.</p>
+              <p>Le matériel Seyrig vérifie ce que nous avons proposé d’appeler le "principe de
+                territorialité", à savoir la diffusion restreinte des sceaux byzantins provinciaux
+                et la prépondérance écrasante dans un échantillon régional, dans une proportion de
+                80% environ, des plombs originaires de la circonscription même, complétés pour une
+                faible part, de l'ordre de 10%, par les pièces en provenance des zones limitrophes
+                [1]. Aussi est-il normal de trouver ici la distinction de trois groupes
+                correspondant à trois moments de l’histoire de la Syrie-Palestine: l'époque
+                protobyzantine (Ve- VIIe siècle), l’époque de la reconquête byzantine (Xe-XIe
+                siècle), et enfin celle des établissements latins d’Orient. Au sein de ces divisions
+                chronologiques, figurent des séries particulièrement remarquables: tout d'abord,
+                celle des commerciaires de Tyr ou d’Antioche (n<sup>os</sup> 136-152), sur laquelle
+                nous avons déja attiré l'attention [2]; puis celle des fonctionnaires civils ou
+                militaires administrateurs du duché byzantin d'Antioche (n<sup>os</sup> 156-164),
+                depuis Théophylacte Dalassènos, duc vers 1030, jusqu'à Isaac Comnène, duc de 1073 à
+                1077 et Philarète Brachamios, domestique d'Orient (v. 1080) (n<sup>o</sup> 192). Le
+                patriarcat syrien est également représenté par quelques beaux sceaux de patriarches
+                  (n<sup>os</sup> 233- 235) et plusieurs, encore inédits, d’évêques orientaux
+                  (n<sup>o</sup> 237, Arados, n<sup>o</sup> 258, Mélitène, n<sup>o</sup> 265,
+                Polémonium, n<sup>o</sup> 266, Ptolémaïs, n<sup>o</sup> 269, Stratonicée,
+                  n<sup>o</sup> 273, Tripoli, n<sup>o</sup> 274, Tyr).</p>
+              <p>Enfin la position de "marche" de la province syrienne explique la présence dans le
+                fonds Seyrig de plusieurs sceaux hybrides ou mixtes par leur forme (tel le beau
+                plomb gravé en grec du normand Thierry de Barneville [3]) et/ou par le caractère et
+                l‘origine de leur signataire: tel un musulman converti, Éleutherios Apodallas
+                (Abdallah) (n<sup>o</sup> 293), un autre partiellement intégré, le patrice Ibn
+                Mousharraf (n<sup>o</sup> 395) qui fait encore graver son <i>boullotèrion</i> en
+                arabe, un géorgien au sceau bilingue, le stratège Georges Katas (n<sup>o</sup> 219
+                [4]). D’autres sceaux attestent encore par la diversité des anthroponymes – le turc
+                Kémalis; le magistre arménien Apnelgaripès (n<sup>o</sup> 40) – le caractére mêlé de
+                cette société de la frontière.</p>
+              <p>C’est la richesse et la diversité de ce fonds qui ont nécessité ou du moins
+                justifié ce travail d’équipe international: J.-Cl. Cheynet et C. Morrisson ont
+                rédigé les descriptions et une partie des commentaires. Ceux-ci ont été nourris
+                notamment par la documentation et les études menées par le premier d’entre eux sur
+                l’histoire politique et sociale de l’empire byzantin des Xe-XIIe siècles. Ils ont
+                bénéficié des conseils de D. Feissel pour les sceaux anciens. Ils ont également
+                effectué les récolements nécessaires, tandis que W. Seibt, au cours de deux séjours
+                successifs à Paris avec l’appui de la <i>Kommission für Byzantinistik der
+                  Österreichischen Akademie der Wissenschaften</i>, procédait à la correction des
+                lectures et des identifications et précisait de nombreuses datations suivant la
+                méthode qu'il avait mise au point et appliquée pour les collections de Vienne. Enfin
+                W. Seibt a rédigé plusieurs notices historiques et procédé, avec l'aide de son
+                épouse Natacha, à la vérification des pièces parallèles dans le fichier de
+                I'Institut de Vienne; <a href="https://www.wikidata.org/wiki/Q1365435"
+                  target="_blank">M. Grünbart</a> (Université de Vienne) a collaboré à la lecture
+                des monogrammes. Nous avons pour terminer soumis la section comprenant les sceaux
+                latins à la lecture compétente de M. <a
+                  href="https://www.wikidata.org/wiki/Q3174316" target="_blank">Jean Richard</a>,
+                membre de I’Institut et les sceaux syriaques à M. <a
+                  href="https://www.wikidata.org/wiki/Q55425781" target="_blank">Javier
+                Teixidor</a>, directeur de recherche au C.N.R.S. Nous les remercions vivement des
+                compléments et corrections qu’ils ont bien voulu nous indiquer.</p>
+              <p>Notre reconnaissance s’adresse aussi au Centre d‘histoire et civilisation de
+                Byzance (URA 186 du Collège de France/CNRS) dirigé par <a
+                  href="https://www.wikidata.org/wiki/Q3105664" target="_blank">G. Dagron</a> et
+                tout particulièrement à Mme Carole Verrey qui a effectué la saisie sur ordinateur de
+                la totalité du manuscrit, y compris les légendes, dans l'alphabet épigraphique mis
+                au point par J.-Cl. Cheynet et Jan De Meester, de l’imprimerie Cultura à Wetteren,
+                Belgique.</p>
+              <p>Notes: [1]. J.-Cl. Cheynet et C. Morrisson, <i>Lieux de trouvaille et circulation
+                  des sceaux</i>, Studies in Byzantine Sigillography, 2 (1990), p. 105-136; [2]. <a
+                  href="https://doi.org/10.3406/crai.1986.14400" target="_blank">C. Morrisson,
+                    <i>Sceaux byzantins inédits de la collection Henri Seyrig</i></a>, Comptes
+                rendus des séances de l'Académie des Inscriptions et Belles-Lettres, 130e année,
+                1986/2, avril-juin, p. 420-435; [3]. <a
+                  href="https://doi.org/10.3406/numi.1984.1863" target="_blank">J.-Cl. Cheynet,
+                    <i>Le sceau de Thierry de Barneville, duc d’Antioche</i></a>, Revue
+                Numismatique, 6ème série, 26 (1984), p. 223-228; [4]. W. Seibt, <i>Problemy
+                  vizantino-gruzinskoj sigillografii</i>, dans <i>IV meždunarodnyj simpozium po
+                  gruzinskomu iskusstvu (Tbilisi 1983, 23.V - 2.VI)</i>, Sbornik dokladov, I,
+                Tbilisi 1989, p. 422-423.</p>
+              <p>Présentation extraite (avec modifications mineures du texte et sélection des notes
+                de bas de page) de: Jean-Claude Cheynet, Cécile Morrisson, Werner Seibt, <i>Les
+                  sceaux byzantins de la collection Henri Seyrig</i>, Paris 1991, p. 9-11.</p>
             </div>
             <div class="row">
               <div class="large-12 columns text-center">
                 <div class="panel radius">
-                  <p>The full bibliographical description of this publication: <strong>[to be changed by each project]</strong>,
-                    available at: <strong>[to be changed by each project]</strong>.</p> <p>This should be abbreviated to <strong>[to be changed by each project]</strong>.</p>
+                  <p>The full bibliographical description of this publication: <strong>[to be
+                      changed by each project]</strong>, available at: <strong>[to be changed by
+                      each project]</strong>.</p>
+                  <p>This should be abbreviated to <strong>[to be changed by each
+                    project]</strong>.</p>
                   <p>GitHub repository available <a href="https://github.com/SigiDoc"
-                    target="_blank">https://github.com/SigiDoc</a>.</p>
+                      target="_blank">https://github.com/SigiDoc</a>.</p>
                   <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                       <img alt="Creative Commons License" style="border-width:0"
                         src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
