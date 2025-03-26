@@ -150,7 +150,7 @@
               <p id="efes">Built on 
                 <a target="_blank" href="https://github.com/SigiDoc">SigiDoc</a> 
                   and delivered by
-                  <a href="https://github.com/EpiDoc/EFES">EFES</a>.
+                  <a target="_blank" href="https://github.com/EpiDoc/EFES">EFES</a>.
                   The content is shared under a <a rel="license"
                       href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA
                       License</a>.
