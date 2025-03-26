@@ -9,7 +9,7 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <i18n:text>SigiDoc: Home</i18n:text>
+      <i18n:text>SigiDoc: Seyrig</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
